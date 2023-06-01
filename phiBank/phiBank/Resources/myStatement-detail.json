@@ -1,0 +1,40 @@
+{
+  "balance": 1324.00,
+  "transfers": [
+    {
+      "id": 1,
+      "date": "2023-10-13",
+      "type": "OUTGOING_TRANSFER",
+      "sender": "David Bond",
+      "amount": 100.00
+    },
+    {
+      "id": 2,
+      "date": "2023-10-10",
+      "type": "INCOMING_TRANSFER",
+      "sender": "David Bond",
+      "amount": 18.00
+    },
+    {
+      "id": 3,
+      "date": "2023-10-08",
+      "type": "BANK_SLIP_DEPOSIT",
+      "sender": "Sua conta",
+      "amount": 500.00
+    },
+    {
+      "id": 4,
+      "date": "2023-10-05",
+      "type": "OUTGOING_PIX_TRANSFER",
+      "sender": "Michel Skywalker",
+      "amount": -30.00
+    },
+    {
+      "id": 5,
+      "date": "2023-10-05",
+      "type": "INCOMING_PIX_TRANSFER",
+      "sender": "Sua conta",
+      "amount": 22.00
+    }
+  ]
+}
