@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196DEFC92A2836F900E63C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFC82A2836F900E63C4A /* AppDelegate.swift */; };
+		196DEFCB2A2836F900E63C4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFCA2A2836F900E63C4A /* SceneDelegate.swift */; };
+		196DEFCD2A2836F900E63C4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFCC2A2836F900E63C4A /* HomeViewController.swift */; };
+		196DEFD22A2836FC00E63C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196DEFD12A2836FC00E63C4A /* Assets.xcassets */; };
+		196DEFD52A2836FC00E63C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196DEFD32A2836FC00E63C4A /* LaunchScreen.storyboard */; };
+		196DEFE02A2836FD00E63C4A /* phiBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFDF2A2836FD00E63C4A /* phiBankTests.swift */; };
+		196DEFEA2A2836FD00E63C4A /* phiBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFE92A2836FD00E63C4A /* phiBankUITests.swift */; };
+		196DEFEC2A2836FD00E63C4A /* phiBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFEB2A2836FD00E63C4A /* phiBankUITestsLaunchTests.swift */; };
+		196DEFFE2A283F2900E63C4A /* myStatement-detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 196DEFFD2A283F2900E63C4A /* myStatement-detail.json */; };
+		196DF0002A283F9B00E63C4A /* ViewConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEFFF2A283F9B00E63C4A /* ViewConfigurationProtocol.swift */; };
+		196DF0042A28406300E63C4A /* PhiDSTokensColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DF0032A28406300E63C4A /* PhiDSTokensColors.swift */; };
+		196DF0072A28449700E63C4A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 196DF0062A28449700E63C4A /* Localizable.strings */; };
+		196DF0092A28466200E63C4A /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DF0082A28466200E63C4A /* FactoryProtocol.swift */; };
+		196DF00B2A2847E100E63C4A /* StatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DF00A2A2847E100E63C4A /* StatementViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196DEFDC2A2836FD00E63C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196DEFBD2A2836F900E63C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196DEFC42A2836F900E63C4A;
+			remoteInfo = phiBank;
+		};
+		196DEFE62A2836FD00E63C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196DEFBD2A2836F900E63C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196DEFC42A2836F900E63C4A;
+			remoteInfo = phiBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		196DEFC52A2836F900E63C4A /* phiBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phiBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196DEFC82A2836F900E63C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		196DEFCA2A2836F900E63C4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		196DEFCC2A2836F900E63C4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		196DEFD12A2836FC00E63C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		196DEFD42A2836FC00E63C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		196DEFD62A2836FC00E63C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196DEFDB2A2836FD00E63C4A /* phiBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phiBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196DEFDF2A2836FD00E63C4A /* phiBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phiBankTests.swift; sourceTree = "<group>"; };
+		196DEFE52A2836FD00E63C4A /* phiBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phiBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196DEFE92A2836FD00E63C4A /* phiBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phiBankUITests.swift; sourceTree = "<group>"; };
+		196DEFEB2A2836FD00E63C4A /* phiBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phiBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		196DEFFD2A283F2900E63C4A /* myStatement-detail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "myStatement-detail.json"; sourceTree = "<group>"; };
+		196DEFFF2A283F9B00E63C4A /* ViewConfigurationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurationProtocol.swift; sourceTree = "<group>"; };
+		196DF0032A28406300E63C4A /* PhiDSTokensColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhiDSTokensColors.swift; sourceTree = "<group>"; };
+		196DF0062A28449700E63C4A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		196DF0082A28466200E63C4A /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
+		196DF00A2A2847E100E63C4A /* StatementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196DEFC22A2836F900E63C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196DEFD82A2836FD00E63C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196DEFE22A2836FD00E63C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196DEFBC2A2836F900E63C4A = {
+			isa = PBXGroup;
+			children = (
+				196DEFC72A2836F900E63C4A /* phiBank */,
+				196DEFDE2A2836FD00E63C4A /* phiBankTests */,
+				196DEFE82A2836FD00E63C4A /* phiBankUITests */,
+				196DEFC62A2836F900E63C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		196DEFC62A2836F900E63C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFC52A2836F900E63C4A /* phiBank.app */,
+				196DEFDB2A2836FD00E63C4A /* phiBankTests.xctest */,
+				196DEFE52A2836FD00E63C4A /* phiBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		196DEFC72A2836F900E63C4A /* phiBank */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFFC2A283E8A00E63C4A /* Resources */,
+				196DEFFA2A283E3B00E63C4A /* Sources */,
+				196DEFC82A2836F900E63C4A /* AppDelegate.swift */,
+				196DEFCA2A2836F900E63C4A /* SceneDelegate.swift */,
+				196DEFD12A2836FC00E63C4A /* Assets.xcassets */,
+				196DEFD32A2836FC00E63C4A /* LaunchScreen.storyboard */,
+				196DEFD62A2836FC00E63C4A /* Info.plist */,
+			);
+			path = phiBank;
+			sourceTree = "<group>";
+		};
+		196DEFDE2A2836FD00E63C4A /* phiBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFDF2A2836FD00E63C4A /* phiBankTests.swift */,
+			);
+			path = phiBankTests;
+			sourceTree = "<group>";
+		};
+		196DEFE82A2836FD00E63C4A /* phiBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFE92A2836FD00E63C4A /* phiBankUITests.swift */,
+				196DEFEB2A2836FD00E63C4A /* phiBankUITestsLaunchTests.swift */,
+			);
+			path = phiBankUITests;
+			sourceTree = "<group>";
+		};
+		196DEFF82A28395200E63C4A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFCC2A2836F900E63C4A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		196DEFF92A28395900E63C4A /* Statement */ = {
+			isa = PBXGroup;
+			children = (
+				196DF00A2A2847E100E63C4A /* StatementViewController.swift */,
+			);
+			path = Statement;
+			sourceTree = "<group>";
+		};
+		196DEFFA2A283E3B00E63C4A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFFB2A283E4700E63C4A /* Design System */,
+				196DEFF92A28395900E63C4A /* Statement */,
+				196DEFF82A28395200E63C4A /* Home */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		196DEFFB2A283E4700E63C4A /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				196DF0052A28424400E63C4A /* Components */,
+				196DF0022A28404A00E63C4A /* Tokens */,
+				196DF0012A28403D00E63C4A /* Configuration */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		196DEFFC2A283E8A00E63C4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFFD2A283F2900E63C4A /* myStatement-detail.json */,
+				196DF0062A28449700E63C4A /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		196DF0012A28403D00E63C4A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				196DEFFF2A283F9B00E63C4A /* ViewConfigurationProtocol.swift */,
+				196DF0082A28466200E63C4A /* FactoryProtocol.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		196DF0022A28404A00E63C4A /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				196DF0032A28406300E63C4A /* PhiDSTokensColors.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		196DF0052A28424400E63C4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196DEFC42A2836F900E63C4A /* phiBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196DEFEF2A2836FD00E63C4A /* Build configuration list for PBXNativeTarget "phiBank" */;
+			buildPhases = (
+				196DEFC12A2836F900E63C4A /* Sources */,
+				196DEFC22A2836F900E63C4A /* Frameworks */,
+				196DEFC32A2836F900E63C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phiBank;
+			productName = phiBank;
+			productReference = 196DEFC52A2836F900E63C4A /* phiBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196DEFDA2A2836FD00E63C4A /* phiBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196DEFF22A2836FD00E63C4A /* Build configuration list for PBXNativeTarget "phiBankTests" */;
+			buildPhases = (
+				196DEFD72A2836FD00E63C4A /* Sources */,
+				196DEFD82A2836FD00E63C4A /* Frameworks */,
+				196DEFD92A2836FD00E63C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196DEFDD2A2836FD00E63C4A /* PBXTargetDependency */,
+			);
+			name = phiBankTests;
+			productName = phiBankTests;
+			productReference = 196DEFDB2A2836FD00E63C4A /* phiBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		196DEFE42A2836FD00E63C4A /* phiBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196DEFF52A2836FD00E63C4A /* Build configuration list for PBXNativeTarget "phiBankUITests" */;
+			buildPhases = (
+				196DEFE12A2836FD00E63C4A /* Sources */,
+				196DEFE22A2836FD00E63C4A /* Frameworks */,
+				196DEFE32A2836FD00E63C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196DEFE72A2836FD00E63C4A /* PBXTargetDependency */,
+			);
+			name = phiBankUITests;
+			productName = phiBankUITests;
+			productReference = 196DEFE52A2836FD00E63C4A /* phiBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196DEFBD2A2836F900E63C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					196DEFC42A2836F900E63C4A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					196DEFDA2A2836FD00E63C4A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 196DEFC42A2836F900E63C4A;
+					};
+					196DEFE42A2836FD00E63C4A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 196DEFC42A2836F900E63C4A;
+					};
+				};
+			};
+			buildConfigurationList = 196DEFC02A2836F900E63C4A /* Build configuration list for PBXProject "phiBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 196DEFBC2A2836F900E63C4A;
+			productRefGroup = 196DEFC62A2836F900E63C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196DEFC42A2836F900E63C4A /* phiBank */,
+				196DEFDA2A2836FD00E63C4A /* phiBankTests */,
+				196DEFE42A2836FD00E63C4A /* phiBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196DEFC32A2836F900E63C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196DEFFE2A283F2900E63C4A /* myStatement-detail.json in Resources */,
+				196DF0072A28449700E63C4A /* Localizable.strings in Resources */,
+				196DEFD52A2836FC00E63C4A /* LaunchScreen.storyboard in Resources */,
+				196DEFD22A2836FC00E63C4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196DEFD92A2836FD00E63C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196DEFE32A2836FD00E63C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196DEFC12A2836F900E63C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196DEFCD2A2836F900E63C4A /* HomeViewController.swift in Sources */,
+				196DEFC92A2836F900E63C4A /* AppDelegate.swift in Sources */,
+				196DF0042A28406300E63C4A /* PhiDSTokensColors.swift in Sources */,
+				196DF0002A283F9B00E63C4A /* ViewConfigurationProtocol.swift in Sources */,
+				196DF00B2A2847E100E63C4A /* StatementViewController.swift in Sources */,
+				196DF0092A28466200E63C4A /* FactoryProtocol.swift in Sources */,
+				196DEFCB2A2836F900E63C4A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196DEFD72A2836FD00E63C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196DEFE02A2836FD00E63C4A /* phiBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196DEFE12A2836FD00E63C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196DEFEC2A2836FD00E63C4A /* phiBankUITestsLaunchTests.swift in Sources */,
+				196DEFEA2A2836FD00E63C4A /* phiBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196DEFDD2A2836FD00E63C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196DEFC42A2836F900E63C4A /* phiBank */;
+			targetProxy = 196DEFDC2A2836FD00E63C4A /* PBXContainerItemProxy */;
+		};
+		196DEFE72A2836FD00E63C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196DEFC42A2836F900E63C4A /* phiBank */;
+			targetProxy = 196DEFE62A2836FD00E63C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		196DEFD32A2836FC00E63C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196DEFD42A2836FC00E63C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		196DEFED2A2836FD00E63C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		196DEFEE2A2836FD00E63C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196DEFF02A2836FD00E63C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 276A4X5JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = phiBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mizialima.phiBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196DEFF12A2836FD00E63C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 276A4X5JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = phiBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mizialima.phiBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		196DEFF32A2836FD00E63C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 276A4X5JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mizialima.phiBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phiBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/phiBank";
+			};
+			name = Debug;
+		};
+		196DEFF42A2836FD00E63C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 276A4X5JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mizialima.phiBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phiBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/phiBank";
+			};
+			name = Release;
+		};
+		196DEFF62A2836FD00E63C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 276A4X5JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mizialima.phiBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = phiBank;
+			};
+			name = Debug;
+		};
+		196DEFF72A2836FD00E63C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 276A4X5JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mizialima.phiBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = phiBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196DEFC02A2836F900E63C4A /* Build configuration list for PBXProject "phiBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DEFED2A2836FD00E63C4A /* Debug */,
+				196DEFEE2A2836FD00E63C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196DEFEF2A2836FD00E63C4A /* Build configuration list for PBXNativeTarget "phiBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DEFF02A2836FD00E63C4A /* Debug */,
+				196DEFF12A2836FD00E63C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196DEFF22A2836FD00E63C4A /* Build configuration list for PBXNativeTarget "phiBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DEFF32A2836FD00E63C4A /* Debug */,
+				196DEFF42A2836FD00E63C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196DEFF52A2836FD00E63C4A /* Build configuration list for PBXNativeTarget "phiBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DEFF62A2836FD00E63C4A /* Debug */,
+				196DEFF72A2836FD00E63C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 196DEFBD2A2836F900E63C4A /* Project object */;
+}
